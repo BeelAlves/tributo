@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
+}
+
+.container{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 36%, rgba(255,255,255,1) 49%, rgba(255,0,0,1) 64%);
+}
+.titulo,.logo{
+    display: flex;
+    justify-content: center;
+    color: #FEBE10;
+}
+
+.logo img{
+    height: 150px;
+    width: 150px;
+}
+
+.titulo h1{
+    font-size: 58px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.corpo{
+    display: flex;
+    width: 200vh;
+    background-color: violet;
+}
+
+.foto1,.foto2{
+    flex: 2;
+}
