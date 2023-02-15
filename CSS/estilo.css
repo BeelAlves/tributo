@@ -62,3 +62,32 @@ section{
     font-size: 55px;
     margin-bottom: 0px;
 }
+
+.historia{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.coluna1, .coluna2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px white;
+    margin: 20px;
+}
+
+.tituloHistoria{
+    color: #FEBE10;
+    text-align: center;
+    margin-bottom:  0px;
+}
+
+.conteudoHistoria p{
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
